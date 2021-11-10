@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 190px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header #contacto{
+    height: 30%;
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header #contacto a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    margin-right: 10px;
+}
+
+header #contacto a:nth-child(1){
+    margin-left: 10px;
+}
+
+header #sociales{
+    height: 30%;
+    width: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header #sociales a{
+    color: black;
+    font-size: 25px;
+}
+
+header figure{
+    height: 70%;
+    background-color: black;
+    width: 15%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header figure img{
+    height: 65%;
+}
+
+header figure h3{
+    color: white;
+}
+
+header #principal{
+    background-color: black;
+    width: 85%;
+    order: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header #principal a{
+    text-decoration: none;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center ;
+
+}
+
+header #principal a:hover{
+    
+}
+
+header #principal a i{
+    order: 1;
+    font-size: 40px;
+    color: green;
+    padding-bottom: 5px;
+}
+
+header #principal a:hover i{
+    color: red;
+    transform: scale(1.2) translate(30px);
+    order: 2;
+}
+
+header #principal a span{
+    order: 2;
+    font-size: 20px;
+    font-family: satisfy;
+    color: white;
+    transition: all 1s;
+}
+
+header #principal a:hover span{
+    color: blue;
+    transform: translate(-40px);
+    order: 1;
+}
+
+main{
+    min-height: 500px;
+    /*background-color: brown;*/
+}
+
+main #breadCrumb{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.centrado{
+    display: flex;
+    /*flex-flow: row nowrap;*/
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main #breadCrumb h2{
+    display: flex;
+    /*flex-flow: row nowrap;*/
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: 2px solid black;
+    color: white;
+    font-size: 10px;
+    font-family: 'Irish Grover';
+}
+
+main #breadCrumb nav{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+main #breadCrumb nav a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 17px;
+}
+
+main #breadCrumb nav a1:after{
+    counter: '>';
+}
+
+main #breadCrumb nav a:last-child{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+main section{
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: space-around;
+}
+
+main section article{
+    width: 32%;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+main section article figure{
+    height: 100px;
+    width: 90%;
+}
+
+main section article figure img{
+    height: 100%;
+}
+main section article .envio{
+    width: 30%;
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+main section article h3{
+    width: 100%;
+    padding: 2px;
+}
+main section article .precio{
+    width: 100%;
+
+}
+main section article .variacion{
+    width: 10%;
+    padding: 3px;
+}
+main section article .comentarios{
+    width: 30%;
+}
+main section article .comprar{
+    width: 100%;
+}
+
+
+
+
+
+
+

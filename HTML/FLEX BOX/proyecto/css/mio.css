@@ -1,0 +1,201 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /*Modelo de Cajas Avanzado*/
+}
+
+header {
+    height: 100px;
+    display:flex;
+    /*flex-direction: row; /*decidir el eje principal
+    flex-wrap: nowrap;*/
+    flex-flow: row nowrap;
+    justify-content: space-around; 
+    /*justifi-contents: alinea los Flexitems en el eje principal que marca flex-direction*/
+    /*alig-items: alinea los Flexitems en el eje secundario*/
+}
+
+header figure {
+    width: 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header figure img {
+    height: 70%;
+}
+
+header #middle {
+    width: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header #middle > * {
+   /* border: 1px solid black;*/
+}
+header #middle nav {
+    width: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+header #middle nav a {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 18%;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    transition: 1s all;
+}
+
+header #middle nav a:hover {
+    background-color: rgba(0, 0, 0, .3);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #middle nav i {
+    width: 20%;
+}
+
+header #middle nav span {
+   height: auto;
+}
+
+header #middle nav i:hover {
+    border: 2px;
+}
+
+header #registro {
+    width: 25%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+header #registro i {
+    font-size: 24px;
+    width: 10%;
+}
+
+header #registro #enlaces {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+    width: 90%;
+}
+
+main{
+    height: 500px;
+    background-color: orange;
+    /*align-items: center*//*marca la alineacion en colum*/
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    justify-content: space-around;/*marca la alineacion en row*/
+}
+
+main nav{
+    height: 200px;
+    background-color: green;
+    width: 15%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;/*marca la alineacion en colum*/
+    align-items: flex-start;/*marca la alineacion en row*/
+}
+main nav a{
+    display: flex;
+    width: 100%;
+    background-color: grey;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-size: 20px;
+}
+main nav a span{
+    width: 60%;
+
+}
+main nav a i{
+    width: 20%;
+    text-align: center;
+ }
+main #middle {
+    height: 400px;
+    background-color: yellow;
+    width: 65%;
+}
+
+main aside{
+    height: 400px;
+    background-color: blue;
+    width: 15%;
+}
+footer{
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+}
+footer #mapa{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+}
+footer #mapa a{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer #sociales{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+    display: flex;
+    flex-flow: column nowrap;
+}
+footer #sociales a{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
