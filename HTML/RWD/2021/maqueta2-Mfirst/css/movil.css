@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: gray;
+}
+header i{
+    color: red;
+    width: 10%;
+    background-color: yellow;
+    font-size: ;
+    padding: 5px;
+}
+header h1{
+    width: 90%;
+    background-color: green;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-end;/*
+    text-align: right;
+    padding: 10px;*/
+}
+header nav{
+    width: 100%;
+    background-color: red;
+    display: none;
+}
