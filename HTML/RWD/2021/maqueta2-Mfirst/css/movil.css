@@ -15,7 +15,7 @@ header i{
     color: red;
     width: 10%;
     background-color: yellow;
-    font-size: ;
+    font-size:medium;
     padding: 5px;
 }
 header h1{
@@ -24,12 +24,50 @@ header h1{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-items: flex-end;/*
-    text-align: right;
-    padding: 10px;*/
+    align-items: flex-end;
 }
 header nav{
     width: 100%;
     background-color: red;
-    display: none;
+    display: flex;
+    flex-flow: column nowrap;
 }
+header nav a{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+header nav i{
+    color: white;
+}
+
+main nav{
+
+}
+main nav a{
+    
+}
+main section{
+
+}
+main aside{
+
+}
+
+footer #mapa{
+
+}
+
+footer #social{
+
+}
+
+
+
+
+
+
+
+
+
+
