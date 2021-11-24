@@ -25,8 +25,9 @@ header h1{
     flex-flow: column wrap;
     justify-content: center;
     align-items: flex-end;
+    padding-right: 10px;
 }
-header nav{
+/*header nav{
     width: 100%;
     background-color: red;
     display: flex;
@@ -39,13 +40,34 @@ header nav a{
 }
 header nav i{
     color: white;
+}*/
+header nav {
+    width: 100%;
+    background-color:rgba(255,0,0,.3);
+    display: flex;
+    flex-flow: column nowrap;
 }
-
+header nav a {
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none
+}
+header nav a i {
+    color: white;
+    display: none !important;
+}
+main{
+}
 main nav{
-
+    width: 100%;
+    background-color:rgba(255,0,0,.3);
+    display: flex;
+    flex-flow: column nowrap;
 }
 main nav a{
-    
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
 }
 main section{
 
@@ -53,7 +75,9 @@ main section{
 main aside{
 
 }
+footer{
 
+}
 footer #mapa{
 
 }
