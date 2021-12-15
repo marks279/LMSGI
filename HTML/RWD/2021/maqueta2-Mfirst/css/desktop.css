@@ -34,8 +34,45 @@ header nav {
     justify-content: space-around;
 }
 header nav a{
-
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
 header nav a i{
     display: block !important;
+    order: 2;
 }
+header nav a span{
+    order: 1;
+}
+main nav{
+    width: 20%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+main section{
+    width: 60%;
+    flex-flow: row wrap;
+}
+main section article{
+
+}
+main section h2{
+    width: 100%;
+    flex-flow: row wrap;
+}
+main aside{
+    width: 20%;
+
+}
+
+
+
+
+
+
+
+
+
